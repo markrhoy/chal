@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hack The Vault</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="columns is-centered">
+        <div class=" column is-two-fifths">
+            <h1 class="title is-3 has-text-centered is-capitalizeds">Hack The Vault</h1>
+
+
+            <article class="message is-primary">
+              <div class="message-header">
+                <p>Hint:</p>
+              </div>
+              <div class="message-body">
+                  The Vault can only be unlocked by providing the correct number <em>(Float type)</em> pin combinations.
+              </div>
+            </article>
+
+
+            <form action="/verify" method="post">
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="first">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="second">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="third">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="fourth">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="fifth">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="sixth">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="seventh">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="eighth">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary"  required placeholder="*" name="ninth">
+                </div>
+                <div class="field">
+                    <input type="number" class="input is-rounded is-primary" required placeholder="*" name="tenth">
+                </div>
+                <button class="button is-primary is-fullwidth is-rounded" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
